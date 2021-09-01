@@ -1,0 +1,70 @@
+body {
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+}
+
+.container {
+  width: 100%;
+}
+
+table {
+  margin: 0 auto;
+}
+
+table, th, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align : center;
+}
+
+th, td {
+  width: 100px;
+  height: 30px;
+  background-color: #fff;
+}
+
+.start {
+  width: 60px;
+  height: 40px;
+  margin: 30px auto;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition : .1s
+}
+
+.start:active {
+  background-color: #fff;
+}
+
+.submitNumber {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.submitNumber input {
+  outline: none;
+  display: block;
+  margin: 10px;
+}
+
+.submitNumber .numberBox {
+  width: 70px;
+}
+
+.submitNumber .btn {
+  width: 40px;
+  cursor: pointer;
+}
